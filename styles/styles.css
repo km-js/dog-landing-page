@@ -37,6 +37,14 @@
   height: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .navbar__logo--img {
+    width: 70%;
+    height: 70%;
+    margin-top: -65px;
+  }
+}
+
 .navbar__bars {
   opacity: 0;
 }
@@ -89,7 +97,7 @@
 }
 
 .navbar__menu #button:hover {
-  background: #8bbe1b;
+  background: #D85A7FFF;
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
@@ -133,7 +141,7 @@
 
 @media screen and (max-width: 768px) {
   .hero__container--left {
-    margin-top: 95px;
+    margin-top: 20px;
     padding: 5rem 0;
   }
 }
@@ -195,7 +203,7 @@
   left: 0;
   width: 0;
   height: 100%;
-  background: #8bbe1b;
+  background: #D85A7FFF;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border-radius: 4px;
@@ -213,6 +221,7 @@
 @media screen and (max-width: 768px) {
   .hero__container--img {
     margin-left: -50px;
+    margin-top: -40px;
   }
 }
 

@@ -27,7 +27,7 @@
         line-height: 1.2;
 
         @include tablet{
-            margin-top: 95px;
+            margin-top: 20px;
             padding: 5rem 0;
         }
 
@@ -83,7 +83,7 @@ position: relative;
     left: 0;
     width: 0;
     height: 100%;
-    background: $darkLemon;
+    background: $darkPink;
     transition: all 0.3s;
     border-radius: 4px;
 }
@@ -98,6 +98,7 @@ position: relative;
 
     @include tablet{
         margin-left: -50px;
+        margin-top: -40px;
     }
 }
 }
